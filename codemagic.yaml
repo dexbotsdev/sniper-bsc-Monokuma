@@ -1,0 +1,6 @@
+workflows:
+  my-workflow:
+    triggering:
+      events:
+        - push
+      cancel_previous_builds: true
